@@ -35,6 +35,7 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
     // XXX we want to show all update preferences
     private IWorkbenchAction preferencesAction;
     
+    
 
     public ApplicationActionBarAdvisor(IActionBarConfigurer configurer) {
         super(configurer);
