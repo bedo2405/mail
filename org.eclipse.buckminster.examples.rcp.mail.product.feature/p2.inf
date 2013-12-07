@@ -1,0 +1,6 @@
+instructions.configure=org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//master.dl.sourceforge.net/project/buckyexamples/bucky-mail-rcp/updates/,type:0,name:Buckminster Mail RCP Example Site,enabled:true); \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//master.dl.sourceforge.net/project/buckyexamples/bucky-mail-rcp/updates/,type:1,name:Buckminster Mail RCP Example Site,enabled:true); \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/releases/juno/,type:0,name:Juno,enabled:true); \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/releases/juno/,type:1,name:Juno,enabled:true); \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/tools/orbit/downloads/drops/R20120526062928/repository/,type:0,name:Orbit,enabled:true); \
+  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//download.eclipse.org/tools/orbit/downloads/drops/R20120526062928/repository/,type:1,name:Orbit,enabled:true);

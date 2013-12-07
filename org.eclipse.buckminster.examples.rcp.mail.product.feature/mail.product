@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Buckminster Mail RCP Product" uid="org.eclipse.buckminster.examples.rcp.mail.product" id="org.eclipse.buckminster.examples.rcp.mail.bundle.product" application="org.eclipse.buckminster.examples.rcp.mail.bundle.application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="product_lg.gif"/>
+      <text>
+         RCP Mail template created by PDE
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>-data
+@user.home/BuckyRcpMail</programArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="icons/sample2.gif"/>
+
+   <splash
+      location="org.eclipse.buckminster.examples.rcp.mail.bundle" />
+   <launcher name="rcpmail">
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+   <vm>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="org.eclipse.buckminster.examples.rcp.mail.product.feature" version="1.0.0.qualifier"/>
+   </features>
+
+
+</product>

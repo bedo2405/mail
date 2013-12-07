@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.buckminster.examples.rcp.mail.product.feature"
+      label="Buckminster Mail RCP Example Product Feature"
+      version="1.0.0.qualifier"
+      provider-name="Lorenzo Bettini">
+
+   <description url="https://sourceforge.net/projects/buckyexamples/files/bucky-mail-rcp/products/">
+      Buckminster Mail RCP Example
+   </description>
+
+   <copyright>
+      Lorenzo Bettini
+   </copyright>
+
+   <license url="http://www.eclipse.org/org/documents/epl-v10.php">
+      Eclipse Public License - v 1.0
+   </license>
+
+   <includes
+         id="org.eclipse.rcp"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.p2.user.ui"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.buckminster.examples.rcp.mail.bundle"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
