@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="MIrror RCP (with sources), launches and p2 update feature" label="RCP SDK, Launchers, and p2 Update Features" buildRoot="${user.home}/mirror/rcp">
+  <validationSets label="main">
+    <contributions label="Kepler RCP">
+      <repositories location="http://download.eclipse.org/releases/kepler">
+        <features name="org.eclipse.rcp.feature.group" versionRange="4.3.1.v20130911-1000" categories="//@customCategories[identifier='custom.rcp.components']"/>
+        <features name="org.eclipse.rcp.source.feature.group" versionRange="4.3.0.v20130605-2000" categories="//@customCategories[identifier='custom.rcp.components']"/>
+        <features name="org.eclipse.equinox.p2.user.ui.feature.group" versionRange="2.2.0.v20130828-0031" categories="//@customCategories[identifier='custom.rcp.components']"/>
+        <features name="org.eclipse.equinox.executable.feature.group" versionRange="3.6.0.v20130807-1835" categories="//@customCategories[identifier='custom.rcp.components']"/>
+      </repositories>
+    </contributions>
+  </validationSets>
+  <configurations/>
+  <configurations architecture="x86_64"/>
+  <customCategories identifier="custom.rcp.components" label="Custom RCP Components" features="//@validationSets[label='main']/@contributions[label='Kepler%20RCP']/@repositories.0/@features.3 //@validationSets[label='main']/@contributions[label='Kepler%20RCP']/@repositories.0/@features.2 //@validationSets[label='main']/@contributions[label='Kepler%20RCP']/@repositories.0/@features.0 //@validationSets[label='main']/@contributions[label='Kepler%20RCP']/@repositories.0/@features.1"/>
+</aggregator:Aggregation>
