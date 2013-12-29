@@ -2,7 +2,7 @@
 <rm:rmap xmlns:rm="http://www.eclipse.org/buckminster/RMap-1.0"
 	xmlns:bc="http://www.eclipse.org/buckminster/Common-1.0">
 
-	<rm:property key="git.clone.dir" value="${user.home}/git/bucky-mail-rcp" />
+	<rm:property key="git.clone.dir" value="${user.home}/git/bedo2405/bucky-mail-rcp" />
 
 	<rm:property key="projects.location" value="${workspace.root}" />
 	<rm:property key="eclipse.download" value="http://download.eclipse.org" />
